@@ -1,0 +1,14 @@
+artifact_uri: /Users/timmyyoussevitch/Desktop/earthquake-mlops/mlruns/956190685887516326/5e5355dad8324545af07c2ab259d0a8b/artifacts
+end_time: 1761330658255
+entry_point_name: ''
+experiment_id: '956190685887516326'
+lifecycle_stage: active
+run_id: 5e5355dad8324545af07c2ab259d0a8b
+run_name: likeable-worm-713
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761330657720
+status: 3
+tags: []
+user_id: timmyyoussevitch

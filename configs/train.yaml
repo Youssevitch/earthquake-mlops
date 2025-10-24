@@ -1,0 +1,22 @@
+random_state: 42
+test_size: 0.2
+target: tsunami
+features:
+  - magnitude
+  - cdi
+  - mmi
+  - sig
+  - nst
+  - dmin
+  - gap
+  - depth
+  - latitude
+  - longitude
+  - Year
+  - Month
+model:
+  type: RandomForestClassifier
+  params:
+    n_estimators: 200
+    max_depth: null
+    class_weight: balanced
