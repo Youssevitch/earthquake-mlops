@@ -17,3 +17,6 @@ artifacts/*
 
 # env
 .env
+
+# allow DVC pointer files in data/
+!data/**/*.dvc
