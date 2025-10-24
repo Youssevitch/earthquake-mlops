@@ -21,7 +21,7 @@ class TsunamiFeatures(BaseModel):
 
 
 class PredictRequest(BaseModel):
-    records: List[TsunamiFeatures] = Field(..., min_items=1, description="List of rows to score")
+    records: List[TsunamiFeatures] = Field(..., min_length=1, description="List of rows to score")
 
 
 class PredictResponseRow(BaseModel):
