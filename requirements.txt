@@ -1,0 +1,18 @@
+pandas
+numpy
+scikit-learn
+fastapi
+uvicorn
+mlflow
+dvc
+dvc[gdrive]  # remove if you won't ever remote to GDrive; ok to keep
+evidently
+pydantic
+python-dotenv
+joblib
+pytest
+pytest-cov
+black
+isort
+flake8
+pre-commit

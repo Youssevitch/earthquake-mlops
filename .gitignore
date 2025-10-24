@@ -1,0 +1,19 @@
+# venv & Python
+.venv/
+__pycache__/
+*.pyc
+
+# data & artifacts (use DVC instead)
+data/*
+!data/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+
+# DS junk
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+
+# env
+.env
