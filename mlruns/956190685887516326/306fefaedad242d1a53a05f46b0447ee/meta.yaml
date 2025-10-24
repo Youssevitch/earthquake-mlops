@@ -1,0 +1,14 @@
+artifact_uri: /Users/timmyyoussevitch/Desktop/earthquake-mlops/mlruns/956190685887516326/306fefaedad242d1a53a05f46b0447ee/artifacts
+end_time: 1761331394720
+entry_point_name: ''
+experiment_id: '956190685887516326'
+lifecycle_stage: active
+run_id: 306fefaedad242d1a53a05f46b0447ee
+run_name: kindly-steed-600
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761331394171
+status: 3
+tags: []
+user_id: timmyyoussevitch

@@ -1,0 +1,41 @@
+artifact_path: /Users/timmyyoussevitch/Desktop/earthquake-mlops/mlruns/1/models/m-8b63eeb4911d47f5bee54c73d18035a6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.5.1
+model_id: m-8b63eeb4911d47f5bee54c73d18035a6
+model_size_bytes: 1974196
+model_uuid: m-8b63eeb4911d47f5bee54c73d18035a6
+prompts: null
+run_id: 10d6ec27e0f44684b24b6536946ce71f
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "magnitude", "required": true}, {"type": "long",
+    "name": "cdi", "required": true}, {"type": "long", "name": "mmi", "required":
+    true}, {"type": "long", "name": "sig", "required": true}, {"type": "long", "name":
+    "nst", "required": true}, {"type": "double", "name": "dmin", "required": true},
+    {"type": "double", "name": "gap", "required": true}, {"type": "double", "name":
+    "depth", "required": true}, {"type": "double", "name": "latitude", "required":
+    true}, {"type": "double", "name": "longitude", "required": true}, {"type": "long",
+    "name": "Year", "required": true}, {"type": "long", "name": "Month", "required":
+    true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-10-24 19:16:59.595742'

@@ -1,0 +1,14 @@
+artifact_uri: /Users/timmyyoussevitch/Desktop/earthquake-mlops/mlruns/956190685887516326/96ac9df5df3346ad817c88473fcd8ddd/artifacts
+end_time: 1761332955153
+entry_point_name: ''
+experiment_id: '956190685887516326'
+lifecycle_stage: active
+run_id: 96ac9df5df3346ad817c88473fcd8ddd
+run_name: delightful-bat-621
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761332954592
+status: 3
+tags: []
+user_id: timmyyoussevitch
