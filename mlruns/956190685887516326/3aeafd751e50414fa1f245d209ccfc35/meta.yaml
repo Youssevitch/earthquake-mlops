@@ -1,0 +1,14 @@
+artifact_uri: /Users/timmyyoussevitch/Desktop/earthquake-mlops/mlruns/956190685887516326/3aeafd751e50414fa1f245d209ccfc35/artifacts
+end_time: 1761332631915
+entry_point_name: ''
+experiment_id: '956190685887516326'
+lifecycle_stage: active
+run_id: 3aeafd751e50414fa1f245d209ccfc35
+run_name: victorious-midge-902
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761332631370
+status: 3
+tags: []
+user_id: timmyyoussevitch

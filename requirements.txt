@@ -6,7 +6,7 @@ uvicorn
 mlflow
 dvc
 dvc[gdrive]  # remove if you won't ever remote to GDrive; ok to keep
-evidently
+evidently>=0.4,<0.5
 pydantic
 python-dotenv
 joblib

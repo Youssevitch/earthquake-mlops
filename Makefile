@@ -19,3 +19,11 @@ train:
 
 run-api:
 	uvicorn src.api.app:app --host 0.0.0.0 --port 8000 --reload
+
+
+drift-report:
+	python -m src.monitoring.drift_report
+
+
+auto-retrain:
+	python -m src.pipelines.auto_retrain

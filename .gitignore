@@ -20,3 +20,4 @@ artifacts/*
 
 # allow DVC pointer files in data/
 !data/**/*.dvc
+.coverage

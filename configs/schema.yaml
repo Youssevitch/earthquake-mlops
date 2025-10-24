@@ -1,0 +1,15 @@
+target: tsunami
+columns:
+  magnitude: {dtype: float, min: 6.5, max: 9.1, required: true}
+  cdi:       {dtype: int,   min: 0,   max: 9,   required: true}
+  mmi:       {dtype: int,   min: 1,   max: 9,   required: true}
+  sig:       {dtype: int,   min: 650, max: 2910, required: true}
+  nst:       {dtype: int,   min: 0,   max: 934,  required: false}
+  dmin:      {dtype: float, min: 0.0, max: 17.7, required: false}
+  gap:       {dtype: float, min: 0.0, max: 239.0, required: false}
+  depth:     {dtype: float, min: 2.7, max: 670.8, required: true}
+  latitude:  {dtype: float, min: -61.85, max: 71.63, required: true}
+  longitude: {dtype: float, min: -179.97, max: 179.66, required: true}
+  Year:      {dtype: int,   min: 2001, max: 2022, required: true}
+  Month:     {dtype: int,   min: 1,    max: 12,   required: true}
+  tsunami:   {dtype: int,   values: [0,1], required: true}
